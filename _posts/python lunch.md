@@ -20,7 +20,8 @@ get = BeautifulSoup(body, "html.parser")
 for tag in get.select("div[class=menuName] span"):
     print("%s\n\n%s\n" % (str(time), tag.text))
 ```
-##
+모듈
+
 ```python
 
 from bs4 import BeautifulSoup
@@ -34,7 +35,7 @@ import time
 그 후에 Bs4에서 들고온 BeautifulSoup라는 친구는 request에서 들고온 정보를 파이썬이 알아볼수 있는 형식으로 바꿔줍니다-request 개발자가 왜 안만들었는지 이해가 안되네..-
 마지막으로 time은 이름에서 보이듯이 시간에 관한 모듈이며 이 코드에서는 프로그램을 실행하는 날의 날짜정보를 가져오기위해 사용되었습니다(없어도 되는건 안비밀)
 
-##변수
+변수
 
 ```python
 time = time.strftime("%Y%m%d", time.localtime(time.time())) #오늘날짜
@@ -51,7 +52,7 @@ body변수에는 url변수에 들어있는 html을 str(문자열) 형태로 바�
 html을 굳이 문자열로 바꾸는 이유는 파이썬이 get함수로 얻어온 값을 써먹지 못하기 때문에 BeautifulSoup의 매개변수로 넘겨주기 위함입니다.
 마지막으로 get변수는 BeautifulSoup함수를 이용해서 파이썬이 알아볼 수 있는 자료형으로 바꿔준 값을 저장합니다.
 
-##본문
+본문
 
 ```python
 
