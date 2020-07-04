@@ -73,4 +73,5 @@ for문 안에 있는 get.select("div[class=manuName] span") 은
 
 그 값을 tag라는 변수에 하나하나 저장해서 시간과 함께 출력합니다.
 
+
 -끝-
