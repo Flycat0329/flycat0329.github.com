@@ -5,7 +5,7 @@ title: 증포중 급식 코드
 
 일단 코드 먼저 보여드리고 설명하겠습니다.
 
-```python
+```py
 #학교 급식
 
 from bs4 import BeautifulSoup
