@@ -72,3 +72,5 @@ for문 안에 있는 get.select("div[class=manuName] span") 은
 "http://www.jpo.ms.kr/lunch.view?date=%s" % time <- 이 주소의 html에서 menuName 클래스에 있는 <span> 태그 속의 값을 리스트 형태로 가져옵니다.
 
 그 값을 tag라는 변수에 하나하나 저장해서 시간과 함께 출력합니다.
+
+-끝-
