@@ -20,6 +20,7 @@ get = BeautifulSoup(body, "html.parser")
 for tag in get.select("div[class=menuName] span"):
     print("%s\n\n%s\n" % (str(time), tag.text))
 ```
+
 모듈
 
 ```python
@@ -64,6 +65,7 @@ for tag in get.select("div[class=menuName] span"):
     print("%s\n\n%s\n" % (str(time), tag.text))
 
 ```
+
 여기서부터는 정보를 골라내서 출력하는 부분입니다.
 
 for문 안에 있는 get.select("div[class=manuName] span") 은 
